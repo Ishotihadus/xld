@@ -1,0 +1,290 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BFE1FDCE2583ACA200EE1F8B /* XLDFFTakDecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = BFE1FDCD2583ACA200EE1F8B /* XLDFFTakDecoder.m */; };
+		BFE1FDD32583AF9600EE1F8B /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFE1FDD12583AF6300EE1F8B /* Cocoa.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BFE1FDC32583AC2300EE1F8B /* XLDFFTakDecoder.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XLDFFTakDecoder.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFE1FDC62583AC2300EE1F8B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFE1FDCC2583ACA200EE1F8B /* XLDFFTakDecoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLDFFTakDecoder.h; sourceTree = "<group>"; };
+		BFE1FDCD2583ACA200EE1F8B /* XLDFFTakDecoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLDFFTakDecoder.m; sourceTree = "<group>"; };
+		BFE1FDCF2583AD7600EE1F8B /* XLDDecoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLDDecoder.h; sourceTree = "<group>"; };
+		BFE1FDD12583AF6300EE1F8B /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BFE1FDC02583AC2300EE1F8B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFE1FDD32583AF9600EE1F8B /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BFE1FDBA2583AC2300EE1F8B = {
+			isa = PBXGroup;
+			children = (
+				BFE1FDC52583AC2300EE1F8B /* XLDFFTakDecoder */,
+				BFE1FDC42583AC2300EE1F8B /* Products */,
+				BFE1FDD02583AF6300EE1F8B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BFE1FDC42583AC2300EE1F8B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BFE1FDC32583AC2300EE1F8B /* XLDFFTakDecoder.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BFE1FDC52583AC2300EE1F8B /* XLDFFTakDecoder */ = {
+			isa = PBXGroup;
+			children = (
+				BFE1FDCF2583AD7600EE1F8B /* XLDDecoder.h */,
+				BFE1FDCC2583ACA200EE1F8B /* XLDFFTakDecoder.h */,
+				BFE1FDCD2583ACA200EE1F8B /* XLDFFTakDecoder.m */,
+				BFE1FDC62583AC2300EE1F8B /* Info.plist */,
+			);
+			path = XLDFFTakDecoder;
+			sourceTree = "<group>";
+		};
+		BFE1FDD02583AF6300EE1F8B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BFE1FDD12583AF6300EE1F8B /* Cocoa.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BFE1FDC22583AC2300EE1F8B /* XLDFFTakDecoder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFE1FDC92583AC2300EE1F8B /* Build configuration list for PBXNativeTarget "XLDFFTakDecoder" */;
+			buildPhases = (
+				BFE1FDBF2583AC2300EE1F8B /* Sources */,
+				BFE1FDC02583AC2300EE1F8B /* Frameworks */,
+				BFE1FDC12583AC2300EE1F8B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XLDFFTakDecoder;
+			productName = XLDFFTakDecoder;
+			productReference = BFE1FDC32583AC2300EE1F8B /* XLDFFTakDecoder.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFE1FDBB2583AC2300EE1F8B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = tmkk;
+				TargetAttributes = {
+					BFE1FDC22583AC2300EE1F8B = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = BFE1FDBE2583AC2300EE1F8B /* Build configuration list for PBXProject "XLDFFTakDecoder_export" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BFE1FDBA2583AC2300EE1F8B;
+			productRefGroup = BFE1FDC42583AC2300EE1F8B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BFE1FDC22583AC2300EE1F8B /* XLDFFTakDecoder */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BFE1FDC12583AC2300EE1F8B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BFE1FDBF2583AC2300EE1F8B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFE1FDCE2583ACA200EE1F8B /* XLDFFTakDecoder.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		BFE1FDC72583AC2300EE1F8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+			};
+			name = Debug;
+		};
+		BFE1FDC82583AC2300EE1F8B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+			};
+			name = Release;
+		};
+		BFE1FDCA2583AC2300EE1F8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				HEADER_SEARCH_PATHS = /usr/local/include;
+				INFOPLIST_FILE = XLDFFTakDecoder/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				LIBRARY_SEARCH_PATHS = /usr/local/lib;
+				OTHER_LDFLAGS = (
+					"-lavcodec",
+					"-lavformat",
+					"-lavutil",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jp.tmkk.XLDFFTakDecoder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		BFE1FDCB2583AC2300EE1F8B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				HEADER_SEARCH_PATHS = /usr/local/include;
+				INFOPLIST_FILE = XLDFFTakDecoder/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				LIBRARY_SEARCH_PATHS = /usr/local/lib;
+				OTHER_LDFLAGS = (
+					"-lavcodec",
+					"-lavformat",
+					"-lavutil",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jp.tmkk.XLDFFTakDecoder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BFE1FDBE2583AC2300EE1F8B /* Build configuration list for PBXProject "XLDFFTakDecoder_export" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFE1FDC72583AC2300EE1F8B /* Debug */,
+				BFE1FDC82583AC2300EE1F8B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFE1FDC92583AC2300EE1F8B /* Build configuration list for PBXNativeTarget "XLDFFTakDecoder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFE1FDCA2583AC2300EE1F8B /* Debug */,
+				BFE1FDCB2583AC2300EE1F8B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFE1FDBB2583AC2300EE1F8B /* Project object */;
+}
